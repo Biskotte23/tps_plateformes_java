@@ -44,17 +44,27 @@
     <display-name>Ex4</display-name>
     <servlet-name>Ex4</servlet-name>
     <servlet-class>fr.univtours.polytech.servlets.Ex4</servlet-class>
-  	<init-param>
-  		<param-name>login</param-name>
-  		<param-value>Hello</param-value>
-  	</init-param>
-  	<init-param>
-  		<param-name>mdp</param-name>
-  		<param-value>hello</param-value>
-  	</init-param>
+    <init-param>
+      <param-name>login</param-name>
+      <param-value>Hello</param-value>
+    </init-param>
+    <init-param>
+      <param-name>mdp</param-name>
+      <param-value>hello</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>Ex4</servlet-name>
     <url-pattern>/ex4</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Calculator</display-name>
+    <servlet-name>Calculator</servlet-name>
+    <servlet-class>fr.univtours.polytech.servlets.Calculator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Calculator</servlet-name>
+    <url-pattern>/calculator</url-pattern>
   </servlet-mapping>
 </web-app>
