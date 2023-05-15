@@ -67,4 +67,14 @@
     <servlet-name>Calculator</servlet-name>
     <url-pattern>/calculator</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ex6</display-name>
+    <servlet-name>Ex6</servlet-name>
+    <servlet-class>fr.univtours.polytech.servlets.Ex6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ex6</servlet-name>
+    <url-pattern>/ex6</url-pattern>
+  </servlet-mapping>
 </web-app>
