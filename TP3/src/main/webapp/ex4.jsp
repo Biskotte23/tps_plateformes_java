@@ -7,7 +7,7 @@
 <title>Exercice 4</title>
 </head>
 <body>
-	<form action="Ex4" method="post">
+	<form action="ex4" method="post">
 		<input type="number" name="nombreChoisi"> <input type="submit"
 			value="valider">
 	</form>
